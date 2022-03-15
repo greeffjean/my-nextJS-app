@@ -1,4 +1,5 @@
-import StoreList from '../../components/Store';
+import React from 'react';
+import StoreList from '../../components/Store/Store';
 
 function Store(){
   return (
