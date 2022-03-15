@@ -9,7 +9,8 @@ function Navigation() {
             <Container>
                 <Link href="/"><Navbar.Brand ><Image src="/logo.svg" width={60} height={60} /></Navbar.Brand></Link>
                 <Nav className="me-auto">
-                    <Link href="/store"><a className="bold">Store</a></Link>
+                    <Link href="/store"><a>Store</a></Link>
+                    <Link href="/albums"><a>Albums</a></Link>
                 </Nav>
             </Container>
         </Navbar>
