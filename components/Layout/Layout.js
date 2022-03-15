@@ -1,12 +1,15 @@
 import React from 'react';
-import Navigation from '../Navigation/nav';
+import Navigation from '../Navigation/Nav';
 
 import PropTypes from 'prop-types';
+import { Container } from 'react-bootstrap';
 
 function Layout({ children }) {
     return (<>
         <Navigation />
-        {children}
+        <Container className="mt-4">
+            {children}
+        </Container>
     </>);
 }
 
