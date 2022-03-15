@@ -1,13 +1,14 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import Link from 'next/link';
 
 function Navigation() {
     return (<>
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/">My Next</Navbar.Brand>
+                <Link href="/"><Navbar.Brand ><a>My Next</a></Navbar.Brand></Link>
                 <Nav className="me-auto">
-                    <Nav.Link href="/store">Store</Nav.Link>
+                    <Link href="/store"><a className="bold">Store</a></Link>
                 </Nav>
             </Container>
         </Navbar>

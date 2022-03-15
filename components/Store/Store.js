@@ -14,10 +14,12 @@ function Store() {
           <ListGroup.Item>Morbi leo risus</ListGroup.Item>
           <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+          <ListGroup.Item><p>{count}</p></ListGroup.Item>
+       
         </ListGroup>
 
-        <p>{count}</p>
-        <button onClick={() => setCount(count + 1)}>Increment</button>
+       
+        <button className="mt-2 btn btn-primary" onClick={() => setCount(count + 1)}>Increment</button>
       </>
     );
   }
