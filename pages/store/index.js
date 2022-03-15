@@ -9,7 +9,7 @@ function Store() {
       <Breadcrumb>
         <Breadcrumb.Item><Link href="/store/about"><a>About This Store</a></Link></Breadcrumb.Item>
       </Breadcrumb>
-      <StoreList />
+      <StoreList /> 
     </Container>
 
   );

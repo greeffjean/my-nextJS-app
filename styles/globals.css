@@ -13,6 +13,7 @@ a {
 
 .navbar a {
   color: white !important;
+  margin-right: 6px !important;
 }
 
 .breadcrumb a {
